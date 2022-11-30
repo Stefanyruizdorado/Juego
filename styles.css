@@ -1,0 +1,139 @@
+*{box-sizing: border-box;}
+
+body{
+
+    background-image: url(https://3.bp.blogspot.com/-YOMQmCZIJaU/UkuMVCv1_OI/AAAAAAAB6Fo/8iE2X5VWmM8/s1600/paisaje.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'kristen ITC';
+
+}
+
+#zona{
+
+    width: 90%;
+    background-color: rgba(240, 248, 255, 0);
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-justify: justify;
+    flex-direction: column; 
+    margin: 10px;
+    border-radius: 10px;
+    animation: animacion ease 1s;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.1em;
+    border: 5px solid white;
+    box-shadow: rgb(70, 255, 230) 5px 5px 10px ;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.seleccion{
+
+    width: 90%;
+    background-color: rgba(19, 0, 20, 0);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    animation: animacion ease 1s;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+}
+
+.seleccion:hover{
+
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(70, 255, 230) 5px 5px 10px ;
+
+}
+
+@keyframes animacion {
+
+    from{
+
+        transform: translateY(-200%);
+
+    }
+
+    to{
+
+        transform: translateY(0);
+
+    }
+    
+}
+
+@media (max-width: 393px){
+
+    .btn-exit{
+
+        margin: auto;
+    
+    }
+
+}
+
+@media (max-width: 600px){
+
+    #pregunta{
+
+        font-size: 15px;
+
+    }
+
+    #imagen{
+
+        width: 30%;
+
+    }
+    
+}
+
+#principal{
+
+    width: 50%;
+
+}
+
+.btn-exit{
+
+    margin: 0;
+    background-color: rgba(72, 243, 229, 0.747);
+    padding: 10px;
+    position: absolute;
+    margin-left: -90%;
+    margin-top: -40%;
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid rgb(255, 253, 253);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    animation: animacion ease 2s;
+
+}
+
+.btn-exit:hover{
+
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+

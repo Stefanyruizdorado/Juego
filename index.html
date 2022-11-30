@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Respondeme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/icono.png">
+
+    <script src="preguntas-data.js"></script>
+    <script defer src="index.js"></script> 
+
+</head>
+
+<body>
+
+    <a href="principal.html" class="btn-exit">↩</a> 
+
+<div id="principal">
+
+    <div id="zona">
+        
+        <span id="pregunta"></span>
+        <br>
+        <img id="imagen"src="./images/question.jpg" style="width: 35%;">
+    
+        <br>
+    </div>
+
+    <br>
+
+    <div class="seleccion" id="seleccion1" onclick="seleccionarOpcion(0)"></div>
+    <div class="seleccion" id="seleccion2" onclick="seleccionarOpcion(1)"></div>
+    <div class="seleccion" id="seleccion3" onclick="seleccionarOpcion(2)"></div>
+    <div class="seleccion" id="seleccion4" onclick="seleccionarOpcion(3)"></div>
+
+
+</div>
+
+</body>
+
+</html>

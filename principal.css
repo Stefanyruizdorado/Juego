@@ -1,0 +1,136 @@
+*{box-sizing: border-box;}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-image: url(https://3.bp.blogspot.com/-YOMQmCZIJaU/UkuMVCv1_OI/AAAAAAAB6Fo/8iE2X5VWmM8/s1600/paisaje.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'kristen ITC';
+
+}
+
+.all{
+
+    margin: auto;
+
+}
+
+.all img{
+
+    margin-left: 20%;
+
+}
+
+.btn{
+
+    position: relative;
+    display: inline-block;
+    margin-left: 20%;
+    padding: 8px 50px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+    font-family: 'arial';
+
+}
+
+.btn:hover{
+
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+    color: aliceblue;
+
+}
+
+.btn span{
+
+    position: absolute;
+    display: block;
+
+}
+
+#span1{
+
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #a945c7);
+
+}
+
+.btn:hover #span1{
+
+    left: 100%;
+    transition: 1s;
+
+}
+
+
+#span3{
+
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent, #a945c7);
+
+}
+
+.btn:hover #span3{
+
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+
+#span2{
+
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #a945c7);
+
+}
+
+.btn:hover #span2{
+
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+
+#span4{
+
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #a945c7);
+
+}
+
+.btn:hover #span4{
+
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
